@@ -17,7 +17,7 @@ public class SwitchExample {
 	String calificativ; 
 	
 	public void intrebamUnCalificativ() {
-		System.out.println("Te rog intrody un calificativ");
+		System.out.println("Te rog introdu un calificativ");
 		Scanner scan = new Scanner(System.in);
 		 calificativ = scan.next();		
 		
