@@ -6,7 +6,7 @@ public class MyCustomException extends Exception {
 		
 		super(mesaj);
 		// this -> face referinta catre obiectul clasei in care se afla
-		// super -> face referinta catre obiectul clasei parine
+		// super -> face referinta catre obiectul clasei parinte
 		
 		
 		//o variabila care se cheama : nume
