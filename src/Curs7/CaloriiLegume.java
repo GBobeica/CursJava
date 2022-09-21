@@ -1,23 +1,28 @@
 package Curs7;
 
 import java.awt.RenderingHints.Key;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CaloriiLegume {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
-		Map<Integer, String> map = new HashMap<>();
+		Map<String, Integer> map = new HashMap<>();
 		//System.out.println(map.size());
+	
 		
-		map.put(58, "morcovi");
-		map.put(33, "castraveti");
-		map.put(44, "rosie");
+		map.put("morcovi", 58 );
+		map.put("castraveti", 33 );
+		map.put("rosie", 44 );
 		
-		for(Integer key : map.keySet()) {
-			System.out.println(key);
+		for(Integer value : map.values()) {
+			System.out.println(value);
+			
+	
 		
 	}
 	}
 }
+

@@ -14,14 +14,13 @@ public class IntreabaLeguma {
 		 Scanner scan = new Scanner(System.in);
 		 leguma = scan.next(); 	
 	
-		if(leguma != leguma )
-		 
-		 
-		
-			System.out.println("Nu vindem aceasta leguma");
+		if(leguma  ) { 
+			System.out.println("Leguma aleasa de tine are " +    +"Calorii");
+			
+	}else {
+			System.out.println("Nu vindem aceasta leguma, va rugam alegeti alta leguma");
 		    leguma = scan.next();
-	
-
+	}
 	}
 
 }
